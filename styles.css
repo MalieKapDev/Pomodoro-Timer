@@ -1,0 +1,233 @@
+:root {
+  /* Colors */
+  --heading-color: #212529;
+  --sub-heading-color: #343a40;
+  --content-color: #495057;
+  --background-color: #f8f9fa;
+  --container-color: #e9ecef;
+  --focus-color: #3dccc7;
+
+  /* Fonts */
+  --font-primary: "Roboto";
+  --font-secondary: "Poppins";
+  --font-heading: "Play Fair Display";
+  --font-logo: "DM Serif Display";
+}
+
+/* Style for Nav Bar */
+.navbar {
+  font-size: 28px;
+}
+
+.navbar-brand {
+  font-family: var(--font-logo);
+  font-weight: 600;
+  color: var(--heading-color);
+  text-decoration: none;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+/* Style for Footer*/
+footer {
+  background-color: var(--container-color);
+  color: var(--heading-color);
+  font-family: var(--font-primary);
+  padding: 20px;
+  text-decoration: none;
+  list-style: none;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.footer-headings {
+  font-family: var(--font-heading);
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.social-icons {
+  color: var(--content-color);
+}
+
+.social-icons:hover {
+  color: var(--focus-color);
+  transition: all 200ms ease-in-out;
+}
+
+.menu a,
+.menu li {
+  color: var(--content-color);
+  font-family: var(--font-primary);
+  font-size: 18px;
+  font-weight: 400;
+  list-style: none;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: var(--focus-color);
+  transition: all 200ms ease-in-out;
+}
+
+.email-input {
+  font-family: var(--font-primary);
+  border: 1px solid var(--heading-color);
+  border-radius: 6px;
+  margin: 0;
+}
+
+.btn-subscribe {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  background-color: var(--heading-color);
+  color: var(--container-color);
+  border: 1px solid var(--heading-color);
+  border-radius: 6px;
+  margin: 0;
+}
+
+.btn-subscribe:hover {
+  color: var(--focus-color);
+  transition: all 200ms ease-in-out;
+}
+
+.footer-coded {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+/* Style for main elements */
+body {
+  background-color: var(--background-color);
+  color: var(--heading-color);
+  font-family: var(--font-primary);
+}
+
+/* Screen Adjustments */
+/* Extra Small Screens */
+@media (min-width: 576px) {
+  /* Style for Nav Bar */
+  .navbar {
+    font-size: 17px;
+  }
+
+  /* Style for Footer*/
+  .footer-headings {
+    font-size: 17px;
+  }
+
+  .social-icons {
+    margin: 20px 0 20px 0;
+  }
+
+  .menu a,
+  .menu li {
+    font-size: 12px;
+  }
+
+  .email-input {
+    font-size: 12px;
+    padding: 5px;
+    margin: 0;
+  }
+
+  .btn-subscribe {
+    font-size: 12px;
+    padding: 15px 20px;
+    margin: 0;
+  }
+
+  .footer-coded {
+    font-size: 12px;
+  }
+}
+
+/* Small Screens */
+@media (min-width: 600px) {
+  /* Style for Nav Bar */
+  .navbar {
+    font-size: 22px;
+  }
+
+  /* Style for Footer*/
+  footer {
+    padding: 30px;
+    line-height: 1.4;
+  }
+
+  .footer-headings {
+    font-size: 16px;
+  }
+
+  .social-icons {
+    margin: 20px 0 20px 0;
+  }
+
+  .menu a,
+  .menu li {
+    font-size: 14px;
+  }
+
+  .email-input {
+    font-size: 14px;
+    padding: 5px;
+    margin: 0;
+  }
+
+  .btn-subscribe {
+    font-size: 14px;
+    padding: 15px 20px;
+    margin: 0;
+  }
+
+  .footer-coded {
+    font-size: 14px;
+  }
+}
+
+/* Medium Screens */
+@media (min-width: 768px) {
+  /* Style for Nav Bar */
+  .navbar {
+    font-size: 22px;
+  }
+
+  /* Style for Footer*/
+  footer {
+    padding: 30px;
+    line-height: 1.4;
+  }
+
+  .footer-headings {
+    font-size: 18px;
+  }
+
+  .social-icons {
+    margin: 20px 0 20px 0;
+  }
+
+  .menu a,
+  .menu li {
+    font-size: 16px;
+  }
+
+  .email-input {
+    font-size: 16px;
+    padding: 5px;
+    margin: 0;
+  }
+
+  .btn-subscribe {
+    font-size: 16px;
+    padding: 15px 20px;
+    margin: 0;
+  }
+
+  .footer-coded {
+    font-size: 16px;
+  }
+}
