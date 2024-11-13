@@ -28,6 +28,15 @@
   cursor: pointer;
 }
 
+.nav-headings {
+  font-family: var(--font-heading);
+  font-size: 28px;
+  font-weight: 600 !important;
+  color: var(--heading-color) !important;
+  text-decoration: none;
+  line-height: 1.4;
+}
+
 /* Style for Footer*/
 footer {
   background-color: var(--container-color);
@@ -112,33 +121,21 @@ body {
 @media (min-width: 576px) {
   /* Style for Nav Bar */
   .navbar {
-    font-size: 17px;
+    font-size: 16px;
+  }
+
+  .nav-headings {
+    font-size: 16px;
   }
 
   /* Style for Footer*/
   .footer-headings {
-    font-size: 17px;
-  }
-
-  .social-icons {
-    margin: 20px 0 20px 0;
+    font-size: 16px;
   }
 
   .menu a,
   .menu li {
     font-size: 12px;
-  }
-
-  .email-input {
-    font-size: 12px;
-    padding: 5px;
-    margin: 0;
-  }
-
-  .btn-subscribe {
-    font-size: 12px;
-    padding: 15px 20px;
-    margin: 0;
   }
 
   .footer-coded {
@@ -150,21 +147,16 @@ body {
 @media (min-width: 600px) {
   /* Style for Nav Bar */
   .navbar {
-    font-size: 22px;
-  }
-
-  /* Style for Footer*/
-  footer {
-    padding: 30px;
-    line-height: 1.4;
-  }
-
-  .footer-headings {
     font-size: 16px;
   }
 
-  .social-icons {
-    margin: 20px 0 20px 0;
+  .nav-headings {
+    font-size: 16px;
+  }
+
+  /* Style for Footer*/
+  .footer-headings {
+    font-size: 16px;
   }
 
   .menu a,
@@ -173,19 +165,15 @@ body {
   }
 
   .email-input {
-    font-size: 14px;
-    padding: 5px;
-    margin: 0;
+    font-size: 16px;
   }
 
   .btn-subscribe {
     font-size: 14px;
-    padding: 15px 20px;
-    margin: 0;
   }
 
   .footer-coded {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -196,18 +184,13 @@ body {
     font-size: 22px;
   }
 
-  /* Style for Footer*/
-  footer {
-    padding: 30px;
-    line-height: 1.4;
-  }
-
-  .footer-headings {
+  .nav-headings {
     font-size: 18px;
   }
 
-  .social-icons {
-    margin: 20px 0 20px 0;
+  /* Style for Footer*/
+  .footer-headings {
+    font-size: 18px;
   }
 
   .menu a,
@@ -217,17 +200,13 @@ body {
 
   .email-input {
     font-size: 16px;
-    padding: 5px;
-    margin: 0;
   }
 
   .btn-subscribe {
     font-size: 16px;
-    padding: 15px 20px;
-    margin: 0;
   }
 
   .footer-coded {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
