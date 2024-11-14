@@ -1,6 +1,6 @@
 :root {
   /* Colors */
-  --heading-color: #212529;
+  --heading-color: #212925;
   --sub-heading-color: #343a40;
   --content-color: #495057;
   --background-color: #f8f9fa;
@@ -35,6 +35,75 @@
   color: var(--heading-color) !important;
   text-decoration: none;
   line-height: 1.4;
+}
+
+/* Style for Other Projects */
+/* Style for Other Projects Entire Card */
+.card {
+  margin: 20px 0 20px 0;
+}
+
+.card-header {
+  font-family: var(--font-heading);
+  font-size: 22px !important;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* Style for Project Individual Cards */
+/* Style for Card Text */
+.card-title {
+  font-family: var(--font-primary);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--sub-heading-color);
+  line-height: 1.4;
+}
+
+.card-text {
+  font-family: var(--font-secondary);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--content-color);
+}
+
+/* Style for Card Button */
+.btn-dark {
+  font-family: var(--font-primary) !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  background-color: var(--heading-color) !important;
+  color: var(--container-color) !important;
+  border: 1px solid var(--heading-color) !important;
+  border-radius: 6px !important;
+  margin: 0 !important;
+}
+
+.btn-dark:hover {
+  color: var(--focus-color) !important;
+  transition: all 200ms ease-in-out !important;
+}
+
+/* Style for Pagination */
+.page-link {
+  color: var(--heading-color) !important;
+  font-family: var(--font-primary);
+  font-size: 14px !important;
+  font-weight: 400;
+  border: 2px solid var(--container-color) !important;
+}
+
+.page-link:hover {
+  background-color: var(--container-color) !important;
+  font-weight: 600;
+  transition: all 200ms ease-in-out !important;
+}
+
+.page-link.active {
+  background-color: var(--focus-color) !important;
+  font-weight: 600;
+  border: 2px solid var(--focus-color) !important;
+  transition: all 200ms ease-in-out !important;
 }
 
 /* Style for Footer*/
@@ -128,6 +197,32 @@ body {
     font-size: 16px;
   }
 
+  /* Style for Other Projects */
+  /* Style for Other Projects Entire Card */
+  .card-header {
+    font-size: 16px;
+  }
+
+  /* Style for Project Individual Cards */
+  /* Style for Card Text */
+  .card-title {
+    font-size: 14px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  /* Style for Card Button */
+  .btn-dark {
+    font-size: 12px;
+  }
+
+  /* Style for Pagination */
+  .page-link {
+    font-size: 12px;
+  }
+
   /* Style for Footer*/
   .footer-headings {
     font-size: 16px;
@@ -152,6 +247,32 @@ body {
 
   .nav-headings {
     font-size: 16px;
+  }
+
+  /* Style for Other Projects */
+  /* Style for Other Projects Entire Card */
+  .card-header {
+    font-size: 18px;
+  }
+
+  /* Style for Project Individual Cards */
+  /* Style for Card Text */
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  /* Style for Card Button */
+  .btn-dark {
+    font-size: 14px;
+  }
+
+  /* Style for Pagination */
+  .page-link {
+    font-size: 14px;
   }
 
   /* Style for Footer*/
@@ -186,6 +307,32 @@ body {
 
   .nav-headings {
     font-size: 18px;
+  }
+
+  /* Style for Other Projects */
+  /* Style for Other Projects Entire Card */
+  .card-header {
+    font-size: 18px;
+  }
+
+  /* Style for Project Individual Cards */
+  /* Style for Card Text */
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  /* Style for Card Button */
+  .btn-dark {
+    font-size: 14px;
+  }
+
+  /* Style for Pagination */
+  .page-link {
+    font-size: 14px;
   }
 
   /* Style for Footer*/
