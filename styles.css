@@ -101,7 +101,7 @@
 
 .card-header {
   font-family: var(--font-heading);
-  font-size: var(--text-lg-title);
+  font-size: var(--text-lg-body);
   font-weight: 600;
   line-height: 1.4;
 }
@@ -110,7 +110,7 @@
 /* Style for Card Text */
 .card-title {
   font-family: var(--font-primary);
-  font-size: var(--text-lg-subtitle);
+  font-size: var(--text-lg-detail);
   font-weight: 600;
   color: var(--sub-heading-color);
   line-height: 1.4;
@@ -118,7 +118,7 @@
 
 .card-text {
   font-family: var(--font-secondary);
-  font-size: var(--text-lg-body);
+  font-size: var(--text-lg-small);
   font-weight: 400;
   color: var(--content-color);
 }
@@ -234,11 +234,13 @@ footer {
 }
 
 /* Style for main elements */
-body {
+.main-container {
   background-color: var(--background-color);
   color: var(--heading-color);
   font-family: var(--font-primary);
 }
+
+/* Style for Project */
 
 /* Screen Adjustments */
 /* Small Screens */
@@ -397,37 +399,37 @@ body {
   /* Style for Other Projects */
   /* Style for Other Projects Entire Card */
   .card-header {
-    font-size: var(--text-lg-title);
+    font-size: var(--text-lg-body);
   }
 
   /* Style for Project Individual Cards */
   /* Style for Card Text */
   .card-title {
-    font-size: var(--text-lg-subtitle);
+    font-size: var(--text-lg-detail);
   }
 
   .card-text {
-    font-size: var(--text-lg-body);
+    font-size: var(--text-lg-small);
   }
 
   /* Style for Card Button */
   .btn-dark {
-    font-size: var(--text-lg-detail);
+    font-size: var(--text-lg-small);
   }
 
   /* Style for Pagination */
   .page-link {
-    font-size: var(--text-lg-detail);
+    font-size: var(--text-lg-small);
   }
 
   /* Style for Footer*/
   .footer-headings {
-    font-size: var(--text-lg-title);
+    font-size: var(--text-lg-subtitle);
   }
 
   .menu a,
   .menu li {
-    font-size: var(--text-lg-subtitle);
+    font-size: var(--text-lg-detail);
   }
 
   .email-input {
